@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+   <div class="container shadow mx-auto mt-5 p-5 w-70">
+     <h1>나의 할일 관리 - 어진희</h1>
+     <div class="input-group">
+          <input id="item" type="text" class="form-control" placeholder="새로운 할일을 입력하세요">   <!-- 처음 빈칸에 무엇을 쓸지 설명 그리고 설명 비칸 꾸미기 -->
+          <button onclick="addItem()" class="btn btn-info">새로입력</button> <!-- 두번째 버튼 그리고 버튼 꾸미기 -->
+     </div>    
+     <ul id="todolist" class="list-group"></ul>  <!-- 빈칸에 쓰고 나온 값들 리스트로 나열 방법 그리고 class="list-group"은 리스트를 앞쪽으로 선 맞추기 -->
+    </div>
+
+    <script src="00todo.js"></script> <!-- html js 연결 -->
+</body>
+</html>
